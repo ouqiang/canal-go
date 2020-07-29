@@ -51,7 +51,7 @@ func Decode(data []byte, lazyParseEntry bool) (*Message, error) {
 	var entry Entry
 	switch p.Type {
 	case PacketType_MESSAGES:
-		if !(p.GetCompression() == Compression_NONE) {
+		if p.GetCompression() > Compression_NONE {
 			panic("compression is not supported in this connector")
 		}
 		err := proto.Unmarshal(p.Body, messages)
