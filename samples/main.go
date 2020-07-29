@@ -22,9 +22,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/withlin/canal-go/client"
-	protocol "github.com/withlin/canal-go/protocol"
 	"github.com/golang/protobuf/proto"
+	"github.com/ouqiang/canal-go/client"
+	protocol "github.com/ouqiang/canal-go/protocol"
 )
 
 func main() {

@@ -2,7 +2,7 @@
 # canal-go
 
 [![Build Status](https://travis-ci.org/withlin/canal-go.svg?branch=master)](https://travis-ci.org/withlin/canal-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/withlin/canal-go)](https://goreportcard.com/badge/github.com/withlin/canal-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ouqiang/canal-go)](https://goreportcard.com/badge/github.com/ouqiang/canal-go)
 
 ## 一.canal-go是什么?
 
@@ -72,7 +72,7 @@ Canal的安装以及配置使用请查看 https://github.com/alibaba/canal/wiki/
 
 ````shell
 
-git clone https://github.com/withlin/canal-go.git
+git clone https://github.com/ouqiang/canal-go.git
 
 export GO111MODULE=on
 
@@ -123,7 +123,7 @@ go mod vendor
 ### 1.执行命令通过docker方式运行 mysql与canal
 
 ````shell
-git clone https://github.com/withlin/canal-go.git
+git clone https://github.com/ouqiang/canal-go.git
 cd canal-go
 cd docker
 docker-compose up -d

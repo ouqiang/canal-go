@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/withlin/canal-go/client"
-	protocol "github.com/withlin/canal-go/protocol"
-	"github.com/gogo/protobuf/proto"
 	"log"
 	"os"
 	"time"
+
+	"github.com/gogo/protobuf/proto"
+	"github.com/ouqiang/canal-go/client"
+	protocol "github.com/ouqiang/canal-go/protocol"
 )
 
 var conn *client.ClusterCanalConnector
